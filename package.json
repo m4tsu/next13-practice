@@ -6,20 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gql:codegen:watch": "graphql-codegen --watch"
   },
   "dependencies": {
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
+    "@urql/devtools": "^2.0.3",
+    "@urql/exchange-request-policy": "^1.0.0",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.8.4"
+    "typescript": "4.8.4",
+    "urql": "^3.0.3"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^2.13.12",
+    "@graphql-codegen/gql-tag-operations-preset": "^1.7.0",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "autoprefixer": "^10.4.13",
     "eslint-config-prettier": "^8.5.0",

@@ -21,3 +21,6 @@ npx tailwindcss init -p
 // install linters (eslint は next と一緒に install される)
 npm i -D @typescript-eslint/eslint-plugin prettier eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-unused-imports
 ```
+
+## 利用させていただいているAPI
+https://graphql-pokeapi.vercel.app/

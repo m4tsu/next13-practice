@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 
-const UsersPage: NextPage = () => {
+const PokemonsPage: NextPage = () => {
   return (
     <div>
       <h2>UsersPage!!!!</h2>
@@ -8,4 +8,4 @@ const UsersPage: NextPage = () => {
   );
 };
 
-export default UsersPage;
+export default PokemonsPage;
